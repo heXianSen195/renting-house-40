@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// 导入字体文件
+import './assets/fonts/iconfont.css'
+
+// 最后导入我们自己的样式
+import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
